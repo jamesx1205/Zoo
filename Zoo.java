@@ -16,7 +16,7 @@ public class Zoo
         
         // Populate our zoo
         animals.add( new FlyingHippo("Flying Hippo"));
-        
+        animals.add( new RunningSnake("Running Snake"));
         
         
         for (Animal a : animals)
@@ -32,10 +32,10 @@ public class Zoo
                 System.out.println("    This animal can run: "+((Runnable) a).run());
             }
             if (a instanceof Flyable){
-              System.out.println(((Flyable)a).fly());
+              System.out.println("This animal have the ability to fly: "+((Flyable)a).fly());
             }
             if(a instanceof Swimmable){
-              System.out.println(((Swimmable)a).swim());
+              System.out.println("This animal can Swim: "+((Swimmable)a).swim());
             }
                
         }
