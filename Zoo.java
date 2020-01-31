@@ -17,7 +17,8 @@ public class Zoo
         // Populate our zoo
         animals.add( new FlyingHippo("Flying Hippo"));
         animals.add( new RunningSnake("Running Snake"));
-        
+        animals.add( new SwimmingPig("Swimming Pig"));
+        animals.add( new FlyingTiger("Flying Tiger"));
         
         for (Animal a : animals)
         {

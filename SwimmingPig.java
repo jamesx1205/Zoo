@@ -7,21 +7,21 @@ public class SwimmingPig extends Animal implements Runnable, Flyable, Swimmable
     
     public String eat()
     {
-        return "Oh yes, SwimmingPigs love to eat all tyo...............................................";
+        return "Oh yes, SwimmingPigs loves to eat all sushi";
     }
     
     public String run()
     {
-        return "Do snakes run. Yes, they have 4 legs and can run as faster than Mr.Kim. ";
+        return "SwmmingPigs can run as fast as Usain Bolt ";
     }
     
     public String fly()
    {
-       return "Wait, They can also Fly??? Yes, they have wings and now they became dragons."; 
+       return "Hold on, why is that pig flying? Wait it flys faster than the Peregrine falcon"; 
    }
    
    public String swim()
    {
-       return "Like human , snakes can use they legs to swim free-style.";
+       return "The swimming pig loves to swim backstroke when they are relaxing, and can still swim faster than a sailfish.";
    }
 }
