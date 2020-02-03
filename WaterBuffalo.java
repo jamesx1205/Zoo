@@ -15,13 +15,13 @@ public class WaterBuffalo extends Animal implements Runnable, Swimmable {
 
     public String run()
     {
-        return "Workkkkkkkk";
+        return "Just like any other buffaloes.";
     }
 
 
     public String swim()
     {
-        return "Wooooooooork";
+        return "It can swim as faster than a normal person.";
     }
 
 

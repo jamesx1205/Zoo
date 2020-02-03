@@ -19,6 +19,12 @@ public class Zoo
         animals.add( new RunningSnake("Running Snake"));
         animals.add( new SwimmingPig("Swimming Pig"));
         animals.add( new FlyingTiger("Flying Tiger"));
+        animals.add( new Dragon("Dragon"));
+        animals.add( new FlyFish("Fly Fish"));
+        animals.add( new Turtle("Turtle"));
+        animals.add( new WaterBuffalo("Water Buffalo"));
+        animals.add( new Eagle("Eagle"));
+        animals.add( new Phoenix("Phoenix"));
         
         for (Animal a : animals)
         {
